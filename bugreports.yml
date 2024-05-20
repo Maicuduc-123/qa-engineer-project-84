@@ -1,35 +1,42 @@
 ---
 - summary: |
     Не выдает список товара по ключевому слову
-environment: |
+  environment: |
     Яндекс Браузер  24.4.2.887 (64-bit)
-steps-to-reproduce: |
+  steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app
     2. Ввести в поисковой с троке "Apple"
-expected-result: >
-    При вводе товара появляются только те, которые начинаются с уже введенных букв
-actual-result: |
+  expected-result: >
+    При вводе товара появляются только те, которые начинаются с уже
+    введенных букв
+  actual-result: |
     На запрос, страница выдает "Ничего не найдено"
+
+---
 - summary: |
     Не оформляется заказ
-environment: |
+  environment: |
     Яндекс Браузер  24.4.2.887 (64-bit)
-steps-to-reproduce: |
+  steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app
     2. Добавить товар в корзину
     3. Зайти в корзину
     4. Оформить заказ
-expected-result: |
+  expected-result: |
     При оформлении заказа, товар успешно оформлен
-actual-result: sreen1.png
+  actual-result: |
+    sreen1.png
+
+---
 - summary: |
     Не вся страница переходит на выбранный язык
-environment: |
+  environment: |
     Яндекс Браузер  24.4.2.887 (64-bit)
-steps-to-reproduce: |
+  steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app
-    2. Выбрыть русский язык
+    2. Выбрать русский язык
     3. Открыть продукт-описание
-expected-result: |
+  expected-result: |
     При выборе русского языка, вся страница переходит на выбранный язык
-actual-result: sreen2.png
+  actual-result: |
+    sreen2.png
