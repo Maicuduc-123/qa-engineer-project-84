@@ -1,11 +1,11 @@
 ---
-имя: Дарья Светличная
-работа: QA Engineer
-уровень: студент
-электронная почта: soharevad@mai.ru
-Описание:
-В прошлом воспитатель детского сада
-навыки:
-- знание компьютера на базовом уровне
-- слепая печать
-- английский язык с переводчиком
+name: Svetlichnaya Daria
+job: QA Engineer
+level: junior
+email: soharevad@mail.ru
+description: |
+  formerly a kindergarten teacher.
+
+skills: 
+  - Слепая печать
+  - Английский язык с переводчиком
