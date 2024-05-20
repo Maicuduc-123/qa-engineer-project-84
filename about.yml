@@ -1,11 +1,12 @@
 ---
-name: Светличная Дарья
+name: Svetlichnaya Daria
 job: QA Engineer
 level: junior
-email: soharevad@mail.ru
+email: sokharevad@mail.ru
 description: |
-  In the past, he was a kindergarten teacher.
-  Текст можно написать в несколько абзацев
-skills: 
-  - Слепая печать
-  - Английский язык с переводчиком
+  В прошлом воспитатель в детском саду.
+
+  Текст может быть написан в несколько абзацев
+skills: # список навыков в виде списка, напишите что-то свое
+  - слепая печать
+  - английский язык с переводчиком
