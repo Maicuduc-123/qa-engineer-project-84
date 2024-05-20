@@ -1,11 +1,12 @@
 ---
-name: Svetlichnaya Daria
+# Если хотите пояснить код, можно добавить комментарий с помощью символа #
+name: Светличная Дарья
 job: QA Engineer
 level: junior
 email: soharevad@mail.ru
 description: |
-  formerly a kindergarten teacher.
-
-skills: 
+  In the past, he was a kindergarten teacher.
+  Текст можно написать в несколько абзацев
+skills: # Список навыков в виде списка, можете написать сюда что-то свое
   - Слепая печать
   - Английский язык с переводчиком
