@@ -3,16 +3,16 @@
   - summary: >
       Краткое описание тест-кейса. Проверка, при  переходе с корзины в
       магазин, выбранный язык сохраняется
-    status: pass
+  status: pass
   - summary: |
       Проверка, при  переходе с корзины в магазин, выбранный язык сохраняется 
-    status: fail
-    bugreports:
+  status: fail
+  bugreports:
   - summary: |
       При  переходе с корзины в магазин, выбранный язык не сохраняется
-    environment: |
+  environment: |
       Яндекс Браузер  24.4.2.887 (64-bit)
-    steps-to-reproduce: >
+  steps-to-reproduce: >
       1. Зайти на страницу
       https://hexlet-products-store.vercel.app  2.Выбрать русский язык  3.Нажать
       кнопку корзина  4.Нажать кнопку магазин
