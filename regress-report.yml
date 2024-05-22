@@ -13,7 +13,7 @@ bugreports:
     environment: |
       Яндекс Браузер  24.4.2.887 (64-bit)
     steps-to-reproduce: >
-      1. Зайти на страницу https://hexlet-products-store.vercel.app  
+      1.Зайти на страницу https://hexlet-products-store.vercel.app  
       2.Выбрать русский язык  
       3.Нажать кнопку корзина  
       4.Нажать кнопку магазин
@@ -33,8 +33,8 @@ bugreports:
     environment: |
       Яндекс Браузер  24.4.2.887 (64-bit)
     steps-to-reproduce: |
-      1. Зайти на страницу https://hexlet-products-store.vercel.app
-      2. Выбрать ценовой диапазон 20 - 30
+      1.Зайти на страницу https://hexlet-products-store.vercel.app
+      2.Выбрать ценовой диапазон 20 - 30
     expected-result: >
       При выборе ценового диапазона 20 - 30, товары будут представлены из данного диапазона
     actual-result: |
