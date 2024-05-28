@@ -65,7 +65,7 @@
   prerequisites: |
     Открыть сайт: https://hexlet-products-store.vercel.app/cart
   test-data: |
-    Вводим iPhone  =  iPhone  = iPhone
+    Вводим iPhone = iPhone = iPhone
   steps:
     - Вводим ключевое слово в строку поиска
     - Проверяем список результатов 
@@ -79,7 +79,7 @@
   prerequisites: |
     Открыть сайт: https://hexlet-products-store.vercel.app/cart
   test-data: |
-    iPhone 9  =  iPhone 9 = Description
+    iPhone 9 = iPhone 9 = Description
     An apple mobile which is nothing like apple
   steps:
     - Нажимаем на продукт
@@ -94,7 +94,7 @@
   prerequisites: |
     Открыть сайт: https://hexlet-products-store.vercel.app/cart
   test-data: |
-    Поле язык  =  Русский
+    Поле язык = Русский
   steps:
     - Нажимаем язык - Rassian
     - Проверяем перешла ли страница на русский язык
@@ -108,7 +108,7 @@
   prerequisites: |
     Открыть сайт: https://hexlet-products-store.vercel.app/cart
   test-data: |
-    Поле цена от - до  =  20 - 40
+    Поле цена от = 20 = до = 40
   steps:
     - Выбираем ценновой диапазон от 20 - 40
     - Прверяем все ли товары в ценовом диапазоне
@@ -122,9 +122,26 @@
   prerequisites: |
     Открыть сайт: https://hexlet-products-store.vercel.app/cart
   test-data: |
-    Поле следующая -  предыдущая =  следующая страница = предыдущая страница
+    Поле следующая = предыдущая = следующая страница = предыдущая страница
   steps:
     - Нажимаем поле следущая страница
     - Проверяем перешла ли страница на следующую и обратно
   expected-result: |
     При переключении кнопки следующая - предыдущая, страница переходит на следующую и обратно
+
+    - summary: |
+    Проверка изменения языка интерфейса при пререходе с корзины в магазин
+  requirement: |
+    При переходе переходе из корзины в магазин, язык не меняется
+  prerequisites: |
+    Открыть сайт: https://hexlet-products-store.vercel.app/cart
+  test-data: |
+    Поле язык = Русский = Корзина = Магазин
+  steps:
+    - Нажимаем поле язык
+    - Нажимаем язык - Rassian
+    - Переходим в корзину
+    - Переходим в магазин
+    - Проверяем изменился ли язык интерфейса при переходе
+  expected-result: |
+   При переходе из корзины в магазин язык интерфейса не изменился
