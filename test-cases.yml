@@ -80,7 +80,6 @@
     Открыть сайт: https://hexlet-products-store.vercel.app/cart
   test-data: |
     iPhone 9 = iPhone 9 = Description
-    An apple mobile which is nothing like apple
   steps:
     - Нажимаем на продукт
     - Проверяем есть ли описание или сведения
@@ -129,7 +128,7 @@
   expected-result: |
     При переключении кнопки следующая - предыдущая, страница переходит на следующую и обратно
 
-    - summary: |
+- summary: |
     Проверка изменения языка интерфейса при пререходе с корзины в магазин
   requirement: |
     При переходе переходе из корзины в магазин, язык не меняется
@@ -145,3 +144,17 @@
     - Проверяем изменился ли язык интерфейса при переходе
   expected-result: |
    При переходе из корзины в магазин язык интерфейса не изменился
+
+- summary: |
+    Прверка подробного описания товара
+  requirement: |
+    При нажатии на товар, появляется подробное описание товара
+  prerequisites: |
+    Открыть сайт: https://hexlet-products-store.vercel.app/cart
+  test-data: |
+    iPhone 9  = iPhone 9 = Description
+  steps:
+    - Нажимаем на товар
+    - Проверяем описание товара
+  expected-result: |
+ При переходе к товару есть подробное описание
