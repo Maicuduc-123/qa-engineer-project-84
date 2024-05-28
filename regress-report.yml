@@ -29,7 +29,7 @@ test-cases:
     status: fail
 
   - summary: |
-      Проверка, выбора ценового диапазона от - до
+      Проверка, выбор ценового диапазона от - до
     status: pass
 
   - summary: |
